@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PdfViewerApp bookXpert</string>
+    <string name="default_web_client_id">98542532444-th00rb6vu21u4c0n5g2d36h5nk9j87k2.apps.googleusercontent.com</string>
+    <string name="default_notification_channel_id">324</string>
+</resources>

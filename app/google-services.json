@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "98542532444",
+    "project_id": "pdfviewerbookexperttest",
+    "storage_bucket": "pdfviewerbookexperttest.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98542532444:android:87100895735d961ed0b399",
+        "android_client_info": {
+          "package_name": "com.ap.pdfviewerappbookxpert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98542532444-q6vc2bf7ak83hrb8rq9etgf8it60n4ih.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ap.pdfviewerappbookxpert",
+            "certificate_hash": "dcd409f3376964662c762b2f9cddbf2fc3699869"
+          }
+        },
+        {
+          "client_id": "98542532444-th00rb6vu21u4c0n5g2d36h5nk9j87k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2YLpVUE7ZTmlYN9UwgA2UJy73QX7nf8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98542532444-th00rb6vu21u4c0n5g2d36h5nk9j87k2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
