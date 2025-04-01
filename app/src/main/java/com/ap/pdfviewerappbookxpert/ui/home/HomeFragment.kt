@@ -26,6 +26,10 @@ class HomeFragment : Fragment() {
         view.findViewById<Button>(R.id.btnSettings).setOnClickListener {
             findNavController().navigate(R.id.action_home_to_settings)
         }
+
+        view.findViewById<Button>(R.id.btnList).setOnClickListener {
+            findNavController().navigate(R.id.action_home_to_listitem)
+        }
         return view
     }
 }

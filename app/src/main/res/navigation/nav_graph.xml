@@ -18,6 +18,7 @@
         <action android:id="@+id/action_home_to_pdf" app:destination="@id/pdfViewerFragment" />
         <action android:id="@+id/action_home_to_image" app:destination="@id/imageFragment" />
         <action android:id="@+id/action_home_to_settings" app:destination="@id/settingsFragment" />
+        <action android:id="@+id/action_home_to_listitem" app:destination="@id/listFragment" />
     </fragment>
 
     <fragment
@@ -34,4 +35,10 @@
         android:id="@+id/settingsFragment"
         android:name="com.ap.pdfviewerappbookxpert.ui.settings.SettingsFragment"
         android:label="Settings" />
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.ap.pdfviewerappbookxpert.ui.list.ListFragment"
+        android:label="Settings" />
+
 </navigation>

@@ -9,6 +9,7 @@
         android:name="android.hardware.camera.autofocus"
         android:required="true" />
 
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
 

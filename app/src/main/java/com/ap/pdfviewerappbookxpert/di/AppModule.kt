@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.room.Room
 import com.ap.pdfviewerappbookxpert.R
 import com.ap.pdfviewerappbookxpert.data.local.AppDatabase
+import com.ap.pdfviewerappbookxpert.data.local.ItemDao
 import com.ap.pdfviewerappbookxpert.data.local.UserDao
 import com.ap.pdfviewerappbookxpert.data.remote.ApiService
 import com.google.android.gms.auth.api.signin.GoogleSignIn
@@ -46,6 +47,11 @@ object AppModule {
     @Provides
     @Singleton
     fun provideUserDao(database: AppDatabase) : UserDao = database.userDao()
+
+    @Provides
+    @Singleton
+    fun provideItemDao(database: AppDatabase) : ItemDao = database.itemDao()
+
 
     @Provides
     @Singleton
